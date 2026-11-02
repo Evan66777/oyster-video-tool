@@ -1,0 +1,10 @@
+# 视频抽帧工具
+
+把视频按固定时间间隔抽成图片，用于牡蛎开闭行为的标注。
+
+## 怎么跑
+pip install opencv-python
+python extract.py
+
+## 结果
+3 分钟、60fps 的视频，每 2 秒抽一张 → 输出 91 张 jpg（间隔 120 帧）。
